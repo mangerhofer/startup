@@ -7,13 +7,19 @@ Have you ever tried to write a story? There is a lot that goes into writing a st
 
 
 
-Key Features:
+###Key Features:
 secure login
+
 ability to upload different file types (jpeg, pdf, doc, etc)
+
 ability to publish works under public or private
+
 ability to share works with another for editing rights
+
 commenting available on works users have access to (public/private)
+
 browsing/reading published works available (to read only)
+
 ability to follow other users 
 
 ## What I have learned:
