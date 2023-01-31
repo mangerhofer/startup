@@ -43,3 +43,13 @@ This is a modification
 this is a modification through github
 
 this is a second modification on github and VS
+
+
+### Accessing AWS Server
+
+use this command to access server: 
+**make sure you are in correct spot (winter2023)
+    ssh -i production.pem ubuntu@3.135.126.141
+
+to exit the server simply type:
+    exit
