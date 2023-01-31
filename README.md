@@ -4,7 +4,10 @@
 
 Have you ever tried to write a story? There is a lot that goes into writing a story, more so than just simply typing words on a page. Whenever I have tried to write a story, I end up with a million documents: from simple maps, to character outlines, and even plot outlines. What if we could put all of these documents in one place and connect it with the book? And if you are working on the story with someone else? Great! You can both be coauthors of the story, and work on all the documents at the same time.
 
-[rough sketch of website] (../cs260mockupstartup.pdf)
+[rough sketch of website]
+[cs260mockupstartup.pdf](https://github.com/mangerhofer/startup/files/10526064/cs260mockupstartup.pdf)
+
+
 
 
 ### Key Features:
