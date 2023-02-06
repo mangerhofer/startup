@@ -56,3 +56,17 @@ use this command to access server:
 
 to exit the server simply type:
     exit
+
+### HTML Useful Facts:
+
+to create a comment: <-- text you want to comment -->
+
+### Also useful:
+
+to pull a git respository: git pull
+
+to upload changes: 
+1. git commit -am "include notes on changes"
+2. git push
+
+
