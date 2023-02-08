@@ -79,6 +79,6 @@ in the terminal, enter this:
 ./deployWebsite.sh  -k /Users/mccallangerhofer/Documents/BYU/winter2023/production.pem -h mccallangerhofer.click
 
 for subdomain uploads:
-./deployWebsite.sh -k /Users/mccallangerhofer/Documents/BYU/winter2023/production.pem -h mccallangerhofer.click -s <subdomainName>
+./deployWebsite.sh -k /Users/mccallangerhofer/Documents/BYU/winter2023/production.pem -h mccallangerhofer.click -s <--subdomainName-->
 
 
