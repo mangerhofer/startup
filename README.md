@@ -81,4 +81,13 @@ in the terminal, enter this:
 for subdomain uploads:
 ./deployFiles.sh -k /Users/mccallangerhofer/Documents/BYU/winter2023/production.pem -h mccallangerhofer.click -s <--subdomainName-->
 
+### Other stuff I've learned from the Simon-html assignment
+
+1. Adding an icon for the website tab is super easy and goes in the head area.
+2. There are a lot more than just the basic ROYGBIV colors that can be used in HTML.
+3. I learned a lot about formatting tables correctly. Different columns go in "td" but different rows go inside "tr"
+4. I learned/was reminded how to change file permissions
+    chmod 755 <--file location-->
+5. it's really fun and super easy to commit changes and see the new versions upload every time I successfully commit a change to github.
+
 
