@@ -70,3 +70,12 @@ to upload changes:
 2. git push
 
 
+### How to upload changes to my domain
+
+include the deployWebsite.sh file
+
+in the terminal, enter this:
+
+./deployWebsite.sh  -k /Users/mccallangerhofer/Documents/BYU/winter2023/production.pem -h mccallangerhofer.click
+
+
