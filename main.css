@@ -1,3 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-width: 375px;
+    font-family: 'Aboreto', cursive;
+}
+
 .welcome {
     text-align: center;
 }
