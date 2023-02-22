@@ -90,4 +90,7 @@ for subdomain uploads:
     chmod 755 <--file location-->
 5. it's really fun and super easy to commit changes and see the new versions upload every time I successfully commit a change to github.
 
+### Bootstrap CSS
+
+You can change the look of different CSS elements using words such as "bg-light", "btn-secondary", etc in the element names (div, p, main, etc)
 
