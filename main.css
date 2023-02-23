@@ -12,3 +12,11 @@ body {
 .about {
     text-align: center;
 }
+
+.container {
+    background-color: #9d9b34;
+}
+
+.button {
+    background-color: antiquewhite;
+}
