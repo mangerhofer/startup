@@ -94,3 +94,11 @@ for subdomain uploads:
 
 You can change the look of different CSS elements using words such as "bg-light", "btn-secondary", etc in the element names (div, p, main, etc)
 
+### HTML & CSS stuff I learned:
+
+Formating my HTML with CSS can get really frustrating, especially because sometimes no matter what I did it wouldn't work. But the nice thing about coding is that there are multiple ways to accomplish what I'm trying to do. The answer isn't always through bootstrap, sometimes I have to format using my main.css page. 
+
+Also relative positioning is super important and usually is what I'm missing (especially if it's already in 'absolute').
+
+Be super careful and make sure you are double checking everything!!!
+
