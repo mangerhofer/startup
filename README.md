@@ -110,3 +110,5 @@ Somethings you code in CSS don't really matter if you code JS right.
 This doesn't really have much to do with JS, but I learned I've actually made decent notes here and after being stumped for awhile, I discovered my problem was addressed here. 
 
 JS is also pretty cool, I learned there is a lot I can do with JS that makes a website functional and it's really cool! I'm excited to keep learning more about JS.
+
+Also Javascript debugging is super useful and really helped me when my code wasn't working. DON'T forget to use debugging techniques!!!
