@@ -41,7 +41,7 @@
 
     <div class="bd-example col-md-auto justify-content-center">
         <div class="dropdown-menu">
-          <form class="px-4 py-3">
+          <form class="px-4 py-3" method = 'get' action = '/pages/home.html'>
             <div class="mb-3">
               <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
@@ -58,7 +58,7 @@
                 </label>
               </div>
             </div>
-            <button type="submit" class="btn btn-light"><a href = pages/home.html class = "nav-link px-2 link-dark">Sign In</a></button>
+            <button type = "submit" class = "btn btn-light" onclick = 'login()'>Sign In</button>
           </form>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="#">New around here? Sign up</a>
