@@ -278,3 +278,7 @@ chmod +x deploy.sh - makes a script executable
 ls -la - can list all files (even hidden ones) in a long format if you provide the parameter
 sudo - Execute a command as a super user (admin)
 ssh - executing commands remotely using the secure shell program 
+
+### Javascript Startup
+
+I thought I understood enough javascript to do everything I needed but I discovered that the code I need for my website is a lot more complicated than I orginally thought and it requires a lot more than simple javascript to be functionable.
