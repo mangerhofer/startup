@@ -282,3 +282,98 @@ ssh - executing commands remotely using the secure shell program
 ### Javascript Startup
 
 I thought I understood enough javascript to do everything I needed but I discovered that the code I need for my website is a lot more complicated than I orginally thought and it requires a lot more than simple javascript to be functionable.
+
+
+### URL Notes:
+
+The Uniform Resource Locator (URL) represents the location of a web resource. A web resource can be anything, such as a web page, font, image, video stream, database record, or JSON object. It can also be completely ephemeral, such as a visitation counter, or gaming session.
+
+Part - Example - Meaning
+
+Scheme - https - The protocol required to ask for the resource. For web applications, this is usually HTTPS. But it could be any internet protocol such as FTP or MAILTO.
+
+Domain name - byu.edu - The domain name that owns the resource represented by the URL.
+
+Port - 3000 - The port specifies the numbered network port used to connect to the domain server. Lower number ports are reserved for common internet protocols, higher number ports can be used for any purpose. The default port is 80 if the scheme is HTTP, or 443 if the scheme is HTTPS.
+
+Path - /school/byu/user/8014 - The path to the resource on the domain. The resource does not have to physically be located on the file system with this path. It can be a logical path representing endpoint parameters, a database table, or an object schema.
+
+Parameters - filter=names&highlight=intro,summary - The parameters represent a list of key value pairs. Usually it provides additional qualifiers on the resource represented by the path. This might be a filter on the returned resource or how to highlight the resource. The parameters are also sometimes called the query string.
+
+Anchor - summary - The anchor usually represents an sub-location in the resource. For HTML pages this represents a request for the browser to automatically scroll to the element with an ID that matches the anchor. The anchor is also sometimes called the hash, or fragment ID.
+
+A Uniform Resource Name (URN) is a unique resource name that does not specify location information. For example, a book URN might be <urn:isbn:10,0765350386>. A Uniform Resource Identifier (URI) is a general resource identifier that could refer to either a URL and URN. With web programming you are almost always talking about URLs and therefore you should not use the more general URI.
+
+##### Common Ports
+
+Port	Protocol
+
+20	File Transfer Protocol (FTP) for data transfer
+
+22	Secure Shell (SSH) for connecting to remote devices
+
+25	Simple Mail Transfer Protocol (SMTP) for sending email
+
+53	Domain Name System (DNS) for looking up IP addresses
+
+80	Hypertext Transfer Protocol (HTTP) for web requests
+
+110	Post Office Protocol (POP3) for retrieving email
+
+123	Network Time Protocol (NTP) for managing time
+
+161	Simple Network Management Protocol (SNMP) for managing network devices such as routers or printers
+
+194	Internet Relay Chat (IRC) for chatting
+
+443	HTTP Secure (HTTPS) for secure web requests
+
+
+#### HTTP Common Rules
+
+GET - Get the requested resource. This can represent a request to get a single resource or a resource representing a list of resources.
+
+POST - Create a new resource. The body of the request contains the resource. The response should include a unique ID of the newly created resource.
+
+PUT - Update a resource. Either the URL path, HTTP header, or body must contain the unique ID of the resource being updated. The body of the request should - contain the updated resource. The body of the response may contain the resulting updated resource.
+
+DELETE - Delete a resource. Either the URL path or HTTP header must contain the unique ID of the resource to delete.
+
+OPTIONS - Get metadata about a resource. Usually only HTTP headers are returned. The resource itself is not returned.
+
+STATUS CODES:
+
+1xx - Informational.
+
+2xx - Success.
+
+3xx - Redirect to some other location, or that the previously cached resource is still valid.
+
+4xx - Client errors. The request is invalid.
+
+5xx - Server errors. The request cannot be satisfied due to an error on the server.
+
+
+
+HTTP headers specify metadata about a request or response. This includes things like how to handle security, caching, data formats, and cookies. 
+
+
+
+HTTP Cookies
+
+This allows the server to remember things like the language preference of the user, or the user's authentication credentials. A server can also use cookies to track, and share, everything that a user does. However, there is nothing inherently evil about cookies, the problem comes from web applications that use them as a means to violate a user's privacy or inappropriately monetize their data.
+
+
+
+SOP & CORS
+
+Simply stated Same Origin Policy (SOP) only allows JavaScript to make requests to a domain if it is the same domain that the user is currently viewing.
+
+Cross Origin Resource Sharing (CORS) allows the client (e.g. browser) to specify the origin of a request and then let the server respond with what origins are allowed.
+
+For CORS to run, need <Access-Control-Allow-Origin: *>
+
+
+### Fetch
+
+The basic usage of fetch takes a URL and returns a promise. The promise then function takes a callback function that is asynchronously called when the requested URL content is obtained. If the returned content is of type application/json you can use the json function on the response object to convert it to a JavaScript object.
