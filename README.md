@@ -377,3 +377,25 @@ For CORS to run, need <Access-Control-Allow-Origin: *>
 ### Fetch
 
 The basic usage of fetch takes a URL and returns a promise. The promise then function takes a callback function that is asynchronously called when the requested URL content is obtained. If the returned content is of type application/json you can use the json function on the response object to convert it to a JavaScript object.
+
+
+### Node.js
+
+1. Create your project directory
+2. Initialize it for use with NPM by running npm init -y
+3. Make sure .gitignore file contains node-modules
+4. Install any desired packages with npm install <package name here>
+5. Add require('<package name here>') to your JavaScript code
+6. Run your code with node main.js
+    
+### Creating a web service
+    
+1. in terminal: mkdir webservicetest (or any other name)
+2. in terminal: cd webservicetest
+3. in terminal: npm init -y
+4. in terminal: npm install http
+5. write up code for main.js
+6. in terminal: node main.js
+7. on web browser: localhost:8080
+8. to stop: ctrl-c
+    
