@@ -282,3 +282,5 @@ ssh - executing commands remotely using the secure shell program
 ### Javascript Startup
 
 I thought I understood enough javascript to do everything I needed but I discovered that the code I need for my website is a lot more complicated than I orginally thought and it requires a lot more than simple javascript to be functionable.
+
+What I thought seemed like really easy simple code ended up being a lot more difficult than I originally thought it would be... 
