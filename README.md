@@ -399,5 +399,25 @@ The basic usage of fetch takes a URL and returns a promise. The promise then fun
 7. on web browser: localhost:8080
 8. to stop: ctrl-c
 
+### Stuff I've learned with Simon Service: 
+    
+    There is a surprising amount of code that goes into adding just a simple quote or picture to the simon project. It's made me realize that I didn't quite understand as much as I thought. But also I understood more from the about.js code than I thought I did. 
+    
+    Also... DON'T FORGET TO ADD THE NECESSARY CODE TO THE .html FILE TO LINK THE .js FILE, OTHERWISE YOU WILL SPEND WAYYYY TOO LONG TRYING TO FIGURE OUT WHY YOUR CODE ISN'T WORKING...
+    
+    Creating a working service for your website isn't that hard, just make sure you are being careful as you code otherwise it will get really complicated really fast.
     
     
+### Mongo Database Notes
+    
+    Mongo database is a really great way to store data... there are lots of different things it can be used for! Explore it! https://www.mongodb.com/docs/
+    
+    Also always make sure you use the right code to protect your information! You don't want your code to be hacked somehow... also great refresher on your PEM environment!!
+    
+    
+### Login Notes
+    
+    Login code is suprisingly tricky and it's important to be super careful writing the code up!
+    
+    Review account creation and login page for better understanding on how to create login credentials that actually work!
+
