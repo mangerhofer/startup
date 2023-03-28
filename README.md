@@ -415,5 +415,9 @@ The basic usage of fetch takes a URL and returns a promise. The promise then fun
     Also always make sure you use the right code to protect your information! You don't want your code to be hacked somehow... also great refresher on your PEM environment!!
     
     
+### Login Notes
     
+    Login code is suprisingly tricky and it's important to be super careful writing the code up!
+    
+    Review account creation and login page for better understanding on how to create login credentials that actually work!
     
