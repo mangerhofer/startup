@@ -421,3 +421,10 @@ The basic usage of fetch takes a URL and returns a promise. The promise then fun
     
     Review account creation and login page for better understanding on how to create login credentials that actually work!
 
+### Websocket Notes
+    
+    Websocket is actually a really cool tool that allows for communication! Review the code under the different websocket lectures to better understand how it works. 
+    
+    Websocket is not designed to have communication stay - it is a temporary message that is sent and will be deleted after a certain amount of time or after a refresh. (think of comments on a live video)
+    
+    
