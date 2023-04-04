@@ -427,4 +427,14 @@ The basic usage of fetch takes a URL and returns a promise. The promise then fun
     
     Websocket is not designed to have communication stay - it is a temporary message that is sent and will be deleted after a certain amount of time or after a refresh. (think of comments on a live video)
     
+ ### REACT NOTES:
     
+    Use the code from these different codepens to help utilize the functionality of your website:
+    
+    https://codepen.io/mangerhofer/pen/xxavNaW
+    
+    https://codepen.io/mangerhofer/pen/MWqNdZm
+    
+    Use this code to understand react a little better using tic-tac-toe
+    
+    https://codesandbox.io/s/quizzical-bogdan-pfx8l5?file=/App.js
