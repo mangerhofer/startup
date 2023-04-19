@@ -438,3 +438,10 @@ The basic usage of fetch takes a URL and returns a promise. The promise then fun
     Use this code to understand react a little better using tic-tac-toe
     
     https://codesandbox.io/s/quizzical-bogdan-pfx8l5?file=/App.js
+    
+    
+### Simon React
+    
+    LOL... I spent way too much time in between learning about react and doing this project so I was really lost... repetition is key to remembering what REACT is... BUT main takeaway is that react is super tricky (if you don't remember it) and you need to be very careful with how you change your code to make sure it is still working.
+    
+    Be patient and take your time getting to know how react works with your code!
