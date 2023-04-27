@@ -445,3 +445,42 @@ The basic usage of fetch takes a URL and returns a promise. The promise then fun
     LOL... I spent way too much time in between learning about react and doing this project so I was really lost... repetition is key to remembering what REACT is... BUT main takeaway is that react is super tricky (if you don't remember it) and you need to be very careful with how you change your code to make sure it is still working.
     
     Be patient and take your time getting to know how react works with your code!
+    
+    
+    #### Final Review:
+    
+    Cookies allow server to store data on client
+
+    Language is not http header: cookie, content-type, host ARE
+
+    You can use fetch on front-end and back-end!
+
+    JSX is not used to combine css, html, js.. IT IS However used for injecting html into js, componentizing html, and allowing composability of html
+
+    Express Middleware: check the method, then check what is happening inside the prompt
+        ‘Use’ is global, will be on everyone
+
+    Linux daemon: executes independent of user, starts when computer is rebooted, PM2 is an example…. Linux daemon can fork other processes
+
+    Hashing stored passwords: improves security by making password unreadable
+
+    URL renders under ‘path’, ‘to’ only shows text that link is under
+
+    Websocket: value added to html makes it peer to peer rather than client to server
+
+    Port 80 is reserved for: http, Https is port 443, Ssh is port 22
+
+    Mongodb: ls = less than, lte = less than or equal, etc
+	    ‘Or’ either one can match which makes it work, ‘and’ means both must match
+
+    Http status codes:
+    300 range - redirects or caching
+    400 range - client errors
+    500 range - server errors
+    200 range - success
+    100 range - informational
+
+
+    Npm install ws: adds dependency to package.json, adds websocket source to node_modules directory, locks version of websocket package for application,     does not add template code for websockets to javascript
+        Have to specify which package you want to install or you will install everything… 
+
